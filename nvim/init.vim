@@ -34,3 +34,12 @@ set dir=$HOME/.vim/tmp
 " Make a buffer hidden while navigating away from it. This ensures that you
 " don't have to save the buffer everytime you navigate away
 set hidden
+
+
+" === Vim airline ==== "
+try
+    " Enable powerline fonts
+    let g:airline_powerline_fonts = 1
+catch
+    echo 'Airline not installed. Try :PlugInstall'
+endtry

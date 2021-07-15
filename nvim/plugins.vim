@@ -24,4 +24,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " vim-go
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+" Customized vim status line
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 call plug#end()

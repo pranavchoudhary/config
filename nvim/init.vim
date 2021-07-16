@@ -43,3 +43,19 @@ try
 catch
     echo 'Airline not installed. Try :PlugInstall'
 endtry
+
+" === NerdTree ===
+" NerdTree window size (width). The default(31) is not enough
+let g:NERDTreeWinSize=40
+
+" Shortcuts for NERDTree plugin
+noremap <leader>tt :NERDTreeToggle<cr>
+noremap <leader>tf :NERDTreeFind<cr>
+
+
+" === Misc ===
+" Reload icons after init source
+if exists('g:loaded_webdevicons')
+  call webdevicons#refresh()
+endif
+

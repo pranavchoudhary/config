@@ -36,4 +36,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
+" Integration with version control systems
+Plug 'airblade/vim-gitgutter'
+
 call plug#end()

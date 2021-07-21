@@ -59,3 +59,7 @@ if exists('g:loaded_webdevicons')
   call webdevicons#refresh()
 endif
 
+" === Git integration ===
+" Set the delay in updating the diff markers. This also changes the delay in
+" writing swap files
+set updatetime=500

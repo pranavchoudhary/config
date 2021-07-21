@@ -39,4 +39,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " Integration with version control systems
 Plug 'airblade/vim-gitgutter'
 
+" Fuzzy finder
+Plug 'ctrlpvim/ctrlp.vim'
+
 call plug#end()

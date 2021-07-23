@@ -44,4 +44,7 @@ Plug 'https://tpope.io/vim/fugitive.git'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Shougo/unite.vim'
 
+" easy way to browse the tags of the current file
+Plug 'majutsushi/tagbar'
+
 call plug#end()

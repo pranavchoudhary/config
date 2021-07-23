@@ -42,5 +42,6 @@ Plug 'https://tpope.io/vim/fugitive.git'
 
 " Fuzzy finder
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'Shougo/unite.vim'
 
 call plug#end()

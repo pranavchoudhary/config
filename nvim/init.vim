@@ -54,7 +54,7 @@ noremap <leader>tf :NERDTreeFind<cr>
 
 " === TagBar ===
 " Shortcut to open/close the tagbar
-noremap <leader>bt :TagbarToggle
+noremap <leader>bt :TagbarToggle<cr>
 
 " === Misc ===
 " Reload icons after init source
